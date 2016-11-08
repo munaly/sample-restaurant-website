@@ -17,6 +17,23 @@
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
+    <script>
+        function initMap() {
+            var position = {lat: 36.699631, lng: -121.618562};
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 15,
+                center: position
+            });
+
+            var marker = new google.maps.Marker({
+                position: position,
+                map: map
+            });
+        }
+    </script>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTCegbFf4x1GTS1JCnfRFWSsNhjvC7IN8&callback=initMap">
+    </script>
     <body>
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
@@ -54,7 +71,7 @@
 
         <div class="container personal_section">
             <!-- Example row of columns -->
-            <div class="row">
+            <div class="row personal_section--body">
                 <div class="col-md-4">
                     <h2 class="personal_section--title">ABOUT US</h2>
                     <p class="personal_section--description">Avatar Indian Grill is a fast casual restaurant committed to fresh, healthy and authentic indian food. Avatar Indian Grill recreates the charm of traditional clay oven with its delicious menu of various curries with tandoor-cooked kebabs and fresh breads ( Naans ). Avatar has managed to produce healthier favorites at affordable prices.</p>
@@ -62,23 +79,40 @@
                 <div class="col-md-4">
                     <h2 class="personal_section--title">CONTACT US</h2>
                     <p class="personal_section--description">
-                      <b class="common--bold personal_section--address">CREEKBRIDGE PLAZA</b><br>
+                      <b class="common--bold personal_section--address">Ambrosia Indian Restaurant</b><br>
                       1568 Constitution Blvd Salinas<br>
                       Salinas, CA 93905<br>
-                      <b class="common--bold">Opening Hours:</b>Mon, Tue, Wed, Thu, Fri, Sat, Sun (11am - 3:00pm) &amp; (4:00pm - 9:00pm)
+                      <b class="common--bold">Opening Hours:</b> <br> Mon - Sun (11am - 3:00pm) &amp; (4:00pm - 9:00pm)<br>
                       <b class="common--bold">Tel :</b> 831-443-2156<br>
                       <b class="common--bold">Fax :</b> 831-443-2153<br>
+                      <b class="common--bold">Email :</b> email@mail.com<br>
                     </p>
+                    <ul class="social-sites">
+                        <li class="social_sites--list">
+                            <a class="social_sites--link" href="http://facebook.com/Avatar-Indian-Grill-690320257686240/" target="_blank">
+                                <i class="fa fa-facebook social_sites--icon"></i>
+                            </a>
+                        </li>
+                        <li class="social_sites--list">
+                            <a class="social_sites--link" href="https://www.tripadvisor.com/Restaurant_Review-g33002-d6857218-Reviews-Avatar-Salinas_California.html" target="_blank">
+                                <i class="fa fa-tripadvisor social_sites--icon"></i>
+                            </a>
+                        </li>
+                        <li class="social_sites--list">
+                            <a class="social_sites--link" href="https://www.yelp.com/biz/avatar-indian-grill-salinas" target="_blank">
+                                <i class="fa fa-yelp social_sites--icon"></i>
+                            </a>
+                        </li>
+
+                    </ul>
                 </div>
                 <div class="col-md-4">
                     <h2 class="personal_section--title">WE ARE HERE</h2>
-                    <p class="personal_section--description">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    <div id="map" class="personal_section--location"></div>
                 </div>
             </div>
 
-            <hr>
-
-            <footer>
+            <footer class="personal_section--footer">
                 <p>&copy; 2016 Company, Inc.</p>
             </footer>
         </div> <!-- /container -->
