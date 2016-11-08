@@ -88,7 +88,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   @import "child/index.css"
+   @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+   @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,600italic,400italic,300italic");
 
 /* ==========================================================================
    Helper classes
