@@ -42,3 +42,50 @@
 .personal_section--link:hover {
 
 }
+
+.social-sites {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+/*Footer section*/
+.social_sites--list {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: black;
+  color: #FFFFFF;
+  margin: 0 5px;
+  display: inline-block;
+  text-align: center;
+  line-height: 25px;
+}
+
+.social_sites--link, .social_sites--link:hover {
+  color: #FFFFFF;
+}
+
+.social_sites--list:hover {
+  background:brown;
+}
+
+.social_sites--icon::before {
+  font-size: 0.875rem;
+}
+
+.personal_section--body {
+  padding: 20px;
+}
+
+.personal_section--footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0.5rem;
+}
+/*Map*/
+.personal_section--location {
+  width: 100%;
+  height: 230px;
+  background-color: grey;
+}
