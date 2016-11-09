@@ -22,12 +22,14 @@ h2 {
   font-size: 2rem;
   padding: 0;
   margin-bottom: 20px;
+  color: #050505;
 }
 
 p {
   font-family:'Open Sans Regular', sans-serif;
   font-size: 0.875rem;
   line-height: 1.1rem;
+  color: #050505;
 }
 
 @media (min-width: 768px) {
