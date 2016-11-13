@@ -9,8 +9,234 @@ body {
   background: #f2f2f2;
 }
 
+.avatar-grill .container {
+  max-width: 1020px;
+  width: 100%;
+}
+
+.top_header--navigation .nav-pills>li a {
+  color: #000;
+}
+
+.top_header--navigation .nav-pills>li a:hover {
+  color: #138708;
+}
+
+.top_header--navigation .nav-pills>li.active>a,
+.top_header--navigation .nav-pills>li.active>a:focus,
+.top_header--navigation .nav-pills>li.active>a:hover {
+  background: #000;
+  color: #FFF;
+}
+
+
+/* ==========================================================================
+  ABOUT THE CHEF SECTION
+========================================================================== */
+.main_background--section {
+  position: relative;
+  padding: 60px 0;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2f2f2+0,ffffff+30,f2f2f2+100 */
+  background: #f2f2f2; /* Old browsers */
+  background: -moz-linear-gradient(top,  #f2f2f2 0%, #ffffff 30%, #f2f2f2 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #f2f2f2 0%,#ffffff 30%,#f2f2f2 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #f2f2f2 0%,#ffffff 30%,#f2f2f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+}
+
+.main_background--section:before,
+.main_background--section:after {
+	content:"";
+  position:absolute;
+  z-index:-1;
+  -webkit-box-shadow:0 0 15px rgba(0,0,0,0.1);
+  -moz-box-shadow:0 0 15px rgba(0,0,0,0.1);
+  box-shadow:0 0 15px rgba(0,0,0,0.1);
+  top:10px;
+  bottom:10px;
+  left:0;
+  right:0;
+}
+
+.main_background--section:after {
+	right:10px;
+  left:auto;
+  -webkit-transform:skew(8deg) rotate(3deg);
+  -moz-transform:skew(8deg) rotate(3deg);
+  -ms-transform:skew(8deg) rotate(3deg);
+  -o-transform:skew(8deg) rotate(3deg);
+  transform:skew(8deg) rotate(3deg);
+}
+
+.top_header--body {
+  padding: 0 20px;
+}
+
+.top_header--profile {
+  width: 100%;
+  margin-left: -200px;
+  float: right;
+}
+
+.top_header--navigation {
+  width: 200px;
+  float: left;
+}
+
+.top_header--profile_content {
+  margin-left: 220px;
+}
+
+.top_header--image {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.top_header--title {
+  background-color: #050505;
+  color: #FFF;
+  width: 100%;
+  padding: 5px 10px;
+  margin: 0;
+}
+
+.top_header--subtitle {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.top_header--description {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+.box h3{
+	text-align:center;
+	position:relative;
+	top:80px;
+}
+.box {
+	width:70%;
+	height:200px;
+	background:#FFF;
+	margin:40px auto;
+}
+
+/* ==========================================================================
+  ACQUISITION SECTION
+========================================================================== */
+
+.acquisition_section--body {
+  padding: 40px 20px 0;
+}
+
+.acquisition_section--title {
+  background-color: #050505;
+  color: #FFF;
+  width: 100%;
+  padding: 5px 10px;
+  margin: 0;
+}
+
+.acquisition_section--subtitle {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+}
+
+.acquisition_section--description {
+  background: #FFF;
+  padding: 20px 10px;
+  position: relative;
+}
+
+.acquisition_section--description:after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  right: 10px;
+  left: auto;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+
+@media (min-width: 768px) {
+  .acquisition_section--description {
+    height: 280px
+  }
+}
+
+@media (min-width: 1024px) {
+  .acquisition_section--description {
+    height: 260px
+  }
+}
+
+.acquisition_section--dropdown {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.acquisition_section--dropdown .dropdown-toggle {
+  width: 100%;
+  text-align: left;
+  position: relative;
+}
+
+.acquisition_section--dropdown .dropdown-toggle .caret {
+  right: 10px;
+  position: absolute;
+  top: 50%;
+  -moz-transform: translateY(-50%)
+  -webkit-transform: translateY(-50%)
+  transform: translateY(-50%)
+}
+
+.acquisition_section--dropdown .dropdown-menu {
+  width: 100%;
+}
+
+.acquisition_section--image_container {
+  width: 100%;
+  height: 100px;
+  background: #FFF;
+  border-bottom: 2px solid #138708;
+  position: relative;
+  overflow: hidden;
+}
+
+.acquisition_section--image {
+  top: 50%;
+  position: absolute;
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+}
+
+
+/* ==========================================================================
+  FOOTER SECTION
+========================================================================== */
+
 .personal_section {
-  padding: 30px 0;
+  margin-top: 30px;
 }
 
 .personal_section--title {
@@ -58,7 +284,7 @@ body {
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  background: black;
+  background: #000;
   color: #FFFFFF;
   margin: 0 2.5px;
   display: inline-block;
