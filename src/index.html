@@ -36,7 +36,6 @@
     </script>
 
     <body class="avatar-grill">
-
       <div class="container">
         <div class="main_background--section">
           <div class="row top_header--body">
@@ -70,9 +69,6 @@
             </div>
           </div>
 
-
-
-
           <div class="row acquisition_section--body">
               <div class="col-md-4">
                 <h2 class="acquisition_section--title">Browser our menu</h2>
@@ -103,6 +99,18 @@
 
                 <div class="acquisition_section--description">
                   Library acquisitions is the department of a library responsible for the selection and purchase of materials or resources. The department may select vendors, negotiate consortium pricing, arrange for standing orders, and select individual titles or resources.
+
+                  <div class="dropdown acquisition_section--dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="select_store" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                      Select a store
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="select_store">
+                      <li><a href="#">Store 1</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                    </ul>
+                  </div>
                 </div>
               </div>
           </div>
@@ -182,12 +190,10 @@
             </footer>
         </div> <!-- /container -->
 
-        <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-        <script src="js/vendor/bootstrap.min.js"></script>
-
-
     </body>
 </html>
