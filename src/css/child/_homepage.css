@@ -9,6 +9,21 @@ body {
   background: #f2f2f2;
 }
 
+.top_header--navigation .nav-pills>li a {
+  color: #000;
+}
+
+.top_header--navigation .nav-pills>li a:hover {
+  color: #138708;
+}
+
+.top_header--navigation .nav-pills>li.active>a,
+.top_header--navigation .nav-pills>li.active>a:focus,
+.top_header--navigation .nav-pills>li.active>a:hover {
+  background: #000;
+  color: #FFF;
+}
+
 
 /* ==========================================================================
   ABOUT THE CHEF SECTION
@@ -144,7 +159,7 @@ body {
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  background: black;
+  background: #000;
   color: #FFFFFF;
   margin: 0 2.5px;
   display: inline-block;
