@@ -6,11 +6,12 @@
 
    ========================================================================== */
 body {
-  background: #f2f2f2;
+  background: #f2f2f2 url("../../img/avatar-background.png") no-repeat;
+  background-position: 50% 50%;
 }
 
 .avatar-grill .container {
-  max-width: 1020px;
+  max-width: 920px;
   width: 100%;
 }
 
@@ -29,10 +30,43 @@ body {
   color: #FFF;
 }
 
+/* ==========================================================================
+  HEADER IMAGE AND LOGO
+========================================================================== */
+
+.ag--header_section {
+  position: relative;
+  max-height: 500px;
+}
+
+.ag--logo_link {
+  width: 200px;
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+}
+
+.ag--logo_link img {
+  width: 100%;
+  background-size: cover;
+}
+
+
+.ag--food_image {
+  position: relative;
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  z-index: -1;
+}
+
 
 /* ==========================================================================
   ABOUT THE CHEF SECTION
 ========================================================================== */
+
 .main_background--section {
   position: relative;
   padding: 60px 0;
@@ -110,21 +144,6 @@ body {
   padding-bottom: 20px;
 }
 
-
-
-
-
-.box h3{
-	text-align:center;
-	position:relative;
-	top:80px;
-}
-.box {
-	width:70%;
-	height:200px;
-	background:#FFF;
-	margin:40px auto;
-}
 
 /* ==========================================================================
   ACQUISITION SECTION
