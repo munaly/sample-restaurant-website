@@ -69,7 +69,7 @@ body {
 
 .main_background--section {
   position: relative;
-  padding: 60px 0;
+  padding: 0;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2f2f2+0,ffffff+30,f2f2f2+100 */
   background: #f2f2f2; /* Old browsers */
   background: -moz-linear-gradient(top,  #f2f2f2 0%, #ffffff 30%, #f2f2f2 100%); /* FF3.6-15 */
@@ -103,7 +103,7 @@ body {
 }
 
 .top_header--body {
-  padding: 0 20px;
+  padding: 40px 20px 0;
 }
 
 .top_header--profile {
@@ -144,13 +144,21 @@ body {
   padding-bottom: 20px;
 }
 
+.top_header--fork {
+  width: 160px;
+  height: auto;
+  background-size: cover;
+  margin: 20px auto;
+  display: block;
+}
+
 
 /* ==========================================================================
   ACQUISITION SECTION
 ========================================================================== */
 
 .acquisition_section--body {
-  padding: 40px 20px 0;
+  padding: 20px 20px 0;
 }
 
 .acquisition_section--title {
@@ -196,13 +204,7 @@ body {
 
 @media (min-width: 768px) {
   .acquisition_section--description {
-    height: 280px
-  }
-}
-
-@media (min-width: 1024px) {
-  .acquisition_section--description {
-    height: 260px
+    height: 300px;
   }
 }
 
