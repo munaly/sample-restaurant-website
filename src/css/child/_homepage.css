@@ -9,8 +9,9 @@ body {
   background: #f2f2f2;
 }
 
-.container {
+.avatar-grill .container {
   max-width: 1020px;
+  width: 100%;
 }
 
 .top_header--navigation .nav-pills>li a {
@@ -48,9 +49,9 @@ body {
 	content:"";
   position:absolute;
   z-index:-1;
-  -webkit-box-shadow:0 0 20px rgba(0,0,0,0.1);
-  -moz-box-shadow:0 0 20px rgba(0,0,0,0.1);
-  box-shadow:0 0 20px rgba(0,0,0,0.1);
+  -webkit-box-shadow:0 0 15px rgba(0,0,0,0.1);
+  -moz-box-shadow:0 0 15px rgba(0,0,0,0.1);
+  box-shadow:0 0 15px rgba(0,0,0,0.1);
   top:10px;
   bottom:10px;
   left:0;
