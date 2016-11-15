@@ -10,7 +10,7 @@ body {
   padding-top: 30px;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 750px) {
   body {
     background: #f2f2f2 url("../../img/avatar-background.png") no-repeat;
     background-position: 50% 50%;
@@ -61,6 +61,15 @@ body {
   background-size: cover;
 }
 
+.ag-navbar_brand {
+  padding: 0;
+}
+
+.ag-logo_small {
+  max-width: 60px;
+  margin: 10px;
+}
+
 .ag--header_small_show {
   display: block;
 }
@@ -69,7 +78,7 @@ body {
   display: none;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 750px) {
   .ag--header_small_show {
     display: none;
   }
@@ -92,7 +101,7 @@ body {
   ABOUT THE CHEF SECTION
 ========================================================================== */
 
-@media (min-width: 720px) {
+@media (min-width: 750px) {
   .main_background--section {
     position: relative;
     padding: 0;
@@ -143,7 +152,7 @@ body {
   float: left;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 750px) {
   .top_header--body {
     padding: 40px 20px 0;
   }
@@ -206,7 +215,7 @@ body {
   margin-bottom: 30px;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 750px) {
   .acquisition_section--body {
     padding: 20px 20px 0;
   }
@@ -391,7 +400,7 @@ body {
   margin-bottom: 40px;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 750px) {
 
   .personal_section--body {
     background: #FFF;
@@ -437,7 +446,7 @@ body {
   margin: 10px 20px;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 750px) {
 
   .personal_section--footer {
     text-align: center;
