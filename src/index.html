@@ -20,10 +20,40 @@
 
     <body class="avatar-grill">
       <div class="container ag--header_section">
-        <a href="/" class="ag--logo_link">
+        <a href="/" class="ag--logo_link ag--header_small_large">
           <img src="img/avatar-logo.jpg" alt="Avatar Indian Grill Logo">
         </a>
-        <img src="img/avatar--header_image.jpg" alt="About the Chef" class="ag--food_image">
+        <img src="img/avatar--header_image.jpg" alt="Avatar Indian Grill Delicious Food" class="ag--food_image ag--header_small_large">
+
+        <nav class="navbar navbar-default navbar-fixed-top ag--header_small_show">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand ag-navbar_brand" href="/">
+                <img src="img/avatar-logo_white.jpg" alt="Avatar Indian Grill Logo" class="ag-logo_small">
+              </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+
+                <li role="presentation" class="active"><a href="#">Home</a></li>
+                <li role="presentation"><a href="#">Menu</a></li>
+                <li role="presentation"><a href="#">Catering</a></li>
+                <li role="presentation"><a href="#">Reservation</a></li>
+                <li role="presentation"><a href="#">Gallery</a></li>
+                <li role="presentation"><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div><!-- /.container-fluid -->
+        </nav>
       </div>
 
       <div class="container">
@@ -62,7 +92,7 @@
           </div>
 
           <div class="row acquisition_section--body">
-              <div class="col-md-4">
+              <div class="col-md-4 acquisition_section--list">
                 <h2 class="acquisition_section--title">Browser our menu</h2>
                 <div class="acquisition_section--image_container">
                   <img src="img/our_menu_pattern.jpg" alt="Browser Our Menu" class="acquisition_section--image">
@@ -72,7 +102,7 @@
                 </div>
               </div>
 
-              <div class="col-md-4">
+              <div class="col-md-4 acquisition_section--list">
                 <h2 class="acquisition_section--title">Today's Special</h2>
                 <div class="acquisition_section--image_container">
                   <img src="img/special_meal.jpg" alt="Today's Special" class="acquisition_section--image">
@@ -83,7 +113,7 @@
                 </div>
               </div>
 
-              <div class="col-md-4">
+              <div class="col-md-4 acquisition_section--list">
                 <h2 class="acquisition_section--title">Book your table online</h2>
                 <div class="acquisition_section--image_container">
                   <img src="img/make_reservation.jpg" alt="Browser Our Menu" class="acquisition_section--image">
